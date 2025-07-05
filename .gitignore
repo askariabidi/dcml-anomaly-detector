@@ -10,9 +10,6 @@ venv/
 *.pkl
 *.joblib
 
-# Ignore dataset (can be large or regenerated)
-dataset.csv
-
 # Ignore output artifacts (report, video, etc.)
 *.mp4
 
