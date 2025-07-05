@@ -115,7 +115,7 @@ python predictor.py
 **Name**: Syed Mohammad Askari Abidi  
 **University**: University of Florence  
 **Program**: Master's in Software: Science and Technology  
-**Course**: B032430 (B255) - DATA COLLECTION AND MACHINE LEARNING FOR CRITICAL CYBER-PHYSICAL SYSTEMS 2024-2025 
+**Course**: B032430 (B255) - DATA COLLECTION AND MACHINE LEARNING FOR CRITICAL CYBER-PHYSICAL SYSTEMS
 **Academic Year**: 2024–2025  
 
 ---
