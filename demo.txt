@@ -1,0 +1,24 @@
+🎥 Demo Video for DCML Project – Academic Year 2024–2025
+
+📌 Title:
+DCML 2024–25 – Real-Time Anomaly Detection on Laptop | Final Project Demo
+
+🔗 YouTube Link:
+https://www.youtube.com/watch?v=y3zZkiE3Odk 
+
+📄 Description:
+This video demonstrates the final project for the B032430 (B255) - DATA COLLECTION AND MACHINE LEARNING FOR CRITICAL CYBER-PHYSICAL SYSTEMS 2024-2025 at the University of Florence. It showcases a real-time anomaly detection system running on a standalone laptop. The project monitors CPU, memory, and I/O usage to detect anomalous system behavior using a trained machine learning model.
+
+🛠️ Steps demonstrated in the video:
+1. Launching the system monitor
+2. Simulating anomalies using `injector.py`
+3. Viewing the collected dataset and labeling
+4. Training the model
+5. Running the real-time anomaly detector
+6. Detecting anomalies live
+
+👨‍🎓 Student:
+Syed Mohammad Askari Abidi  
+Master’s in Software: Science and Technology  
+University of Florence  
+Academic Year: 2024–2025
