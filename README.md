@@ -46,6 +46,8 @@ To monitor system performance metrics (CPU, memory, I/O) in real-time, train a m
 git clone https://github.com/askariabidi/dcml-anomaly-detector.git
 cd dcml-anomaly-detector
 
+### 2. Set up the virtual environment
+```bash
 python -m venv venv
 venv\Scripts\activate  # On Windows
 
