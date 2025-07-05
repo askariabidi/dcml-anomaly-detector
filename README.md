@@ -20,10 +20,10 @@ To monitor system performance metrics (CPU, memory, I/O) in real-time, train a m
 | `predictor.py`    | Runs the saved model in real-time to detect anomalies                      |
 | `dataset.csv`     | Collected and labeled training data (normal + injected anomalies)          |
 | `model.pkl`       | Saved trained machine learning model                                       |
-| `scaler.pkl`      | Saved standard scaler for real-time data normalization                    |
+| `scaler.pkl`      | Saved standard scaler for real-time data normalization                     |
 | `README.md`       | This project overview and instructions                                     |
-| `report.pdf`      | Methodology and technical explanation (submitted for course evaluation)   |
-| `demo.mp4` / `demo.txt` | Demo video or YouTube link to the 5-minute recording                  |
+| `report.pdf`      | Methodology and technical explanation (submitted for course evaluation)    |
+| `demo.txt`        | Demo video or YouTube link to the 5-minute recording                       |
 | `report-assets/`  | Optional screenshots/graphs for the report                                 |
 
 ---
