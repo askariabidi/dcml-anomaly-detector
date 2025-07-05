@@ -15,7 +15,6 @@ dataset.csv
 
 # Ignore output artifacts (report, video, etc.)
 *.mp4
-*.pdf
 
 # Ignore IDE/editor files
 .vscode/
