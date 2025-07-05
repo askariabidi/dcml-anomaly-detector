@@ -8,6 +8,10 @@ This repository contains the implementation of a **real-time anomaly detection s
 
 To monitor system performance metrics (CPU, memory, I/O) in real-time, train a machine learning model to distinguish between normal and anomalous behavior, and use the model to detect anomalies live as the system runs.
 
+![System Architecture](report-assets/image.png)
+
+*Figure 1: System architecture showing how monitor.py, train_model.py, and predictor.py interact.*
+
 ---
 
 ## 🧱 Project Structure
