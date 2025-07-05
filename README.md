@@ -1,4 +1,4 @@
-# 📊 DCML 2024–2025 – Real-Time Anomaly Detector for Laptops
+# 📊 Real-Time Anomaly Detector for Laptops
 
 This repository contains the implementation of a **real-time anomaly detection system** for laptops and standalone workstations. The project was developed as part of the **Data Collection and Machine Learning (DCML)** course at the University of Florence.
 
@@ -31,43 +31,95 @@ To monitor system performance metrics (CPU, memory, I/O) in real-time, train a m
 ## 🛠️ Technologies Used
 
 - Python 3.12
-- `psutil` (system monitoring)
-- `scikit-learn` (ML model training)
-- `pandas` and `numpy` (data handling)
-- `joblib` (model saving/loading)
-- Visual Studio Code (development environment)
+- `psutil` – for system monitoring
+- `scikit-learn` – for machine learning
+- `pandas`, `numpy` – for data manipulation
+- `joblib` – for saving/loading ML models
+- Visual Studio Code – as the development environment
 
 ---
 
 ## 🚀 How to Run the Project
 
-### 1. Clone the repository
+### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/askariabidi/dcml-anomaly-detector.git
 cd dcml-anomaly-detector
+```
 
-### 2. Set up the virtual environment
+### 2. Set Up the Virtual Environment
+
 ```bash
 python -m venv venv
 venv\Scripts\activate  # On Windows
+```
 
+### 3. Install Dependencies
+
+```bash
 pip install psutil pandas scikit-learn joblib matplotlib seaborn
+```
 
+### 4. Collect Normal System Data
+
+```bash
 python monitor.py
-# Let it run for a few minutes while you use your computer normally
-# Press Ctrl+C to stop and save dataset.csv
+```
 
+- Let it run for a few minutes while you use your computer normally  
+- Press `Ctrl+C` to stop and save the file as `dataset.csv`
+
+### 5. Simulate Anomalies
+
+```bash
 python injector.py
-# Choose a stress test (CPU or memory)
+```
 
-Label the Data
-Open dataset.csv in Excel or a CSV editor
-→ Label "anomaly" for time periods during stress injection
+- Choose option `1` or `2` to simulate CPU or memory overload
 
+### 6. Label the Data
+
+- Open `dataset.csv` in Excel or a CSV editor
+- Label `"anomaly"` for time periods during which the injector was running
+- Save the labeled file
+
+### 7. Train the Machine Learning Model
+
+```bash
 python train_model.py
-# Outputs model.pkl and scaler.pkl
+```
 
+- This generates and saves `model.pkl` and `scaler.pkl`
+
+### 8. Run Real-Time Anomaly Detection
+
+```bash
 python predictor.py
-# Run injector again to simulate anomaly in real time
+```
 
+- While it runs, re-run `injector.py` in a separate terminal to simulate an anomaly
+- Watch the terminal output — it will print 🚨 `ANOMALY` if detected
 
+---
+
+## 📽️ Demo Video
+
+🎥 You can watch the full demo here:  
+🔗 [YouTube Demo Link](https://youtu.be/y3zZkiE3Odk)
+
+---
+
+## 🧑‍🎓 Author
+
+**Name**: Syed Mohammad Askari Abidi  
+**University**: University of Florence  
+**Program**: Master's in Software: Science and Technology  
+**Course**: B032430 (B255) - DATA COLLECTION AND MACHINE LEARNING FOR CRITICAL CYBER-PHYSICAL SYSTEMS 2024-2025 
+**Academic Year**: 2024–2025  
+
+---
+
+## 📝 License
+
+This project is submitted for academic purposes. For reuse or collaboration, please contact the author.
